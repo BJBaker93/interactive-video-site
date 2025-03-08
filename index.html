@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Video Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="mainVideo" loop autoplay muted>
+            <source src="videos/main.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="clickable-element" data-transition="videos/CDtranto.mp4" data-loop="videos/CDmain.mp4" style="top: 20%; left: 30%;"></div>
+        <div class="clickable-element" data-transition="videos/Billboardtranto.mp4" data-loop="videos/Billboardmain.mp4" style="top: 50%; left: 70%;"></div>
+        <div class="clickable-element" data-transition="videos/PCtranto.mp4" data-loop="videos/PCmain.mp4" style="top: 80%; left: 50%;"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
